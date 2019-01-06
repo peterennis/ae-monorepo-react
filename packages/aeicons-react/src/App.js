@@ -11,7 +11,7 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <a
+          <div><a
             className="App-link"
             href="https://reactjs.org"
             target="_blank"
@@ -19,6 +19,15 @@ class App extends Component {
           >
             Learn React
           </a>
+            &nbsp;&nbsp;&nbsp;
+          <a
+              className="App-link"
+              href="https://stenciljs.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Learn Stencil
+          </a></div>
         </header>
       </div>
     );

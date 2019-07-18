@@ -4,7 +4,11 @@ import './App.css';
 
 import { Icon, InlineIcon } from "@iconify/react";
 import trophy from "@iconify/icons-mdi-light/trophy";
+
+import firstPlaceMedal from "@iconify/icons-twemoji/1st-place-medal";
 import airplane from "@iconify/icons-twemoji/airplane";
+import airplaneArrival from "@iconify/icons-twemoji/airplane-arrival";
+import airplaneDeparture from "@iconify/icons-twemoji/airplane-departure";
 
 const App: React.FC = () => {
   return (
@@ -42,10 +46,14 @@ const App: React.FC = () => {
             Learn Iconify
           </a>
           &nbsp;&nbsp;&nbsp;<Icon icon={trophy} />
+          <Icon icon={firstPlaceMedal} />
         </div>
         <div>
 
-          <p>Please fasten your seatbelts <InlineIcon icon={airplane} /></p>
+          <p><InlineIcon icon={airplaneDeparture} /><InlineIcon icon={airplane} />
+            &nbsp;Please fasten your seatbelts&nbsp;
+            <InlineIcon icon={airplane} /><InlineIcon icon={airplaneArrival} />
+          </p>
         </div>
       </header>
     </div>

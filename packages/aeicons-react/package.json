@@ -13,6 +13,7 @@
     "typescript": "3.4.5"
   },
   "devDependencies": {
+    "@iconify/iconify": "^1.0.3",
     "@iconify/icons-mdi-light": "^1.0.0",
     "@iconify/icons-twemoji": "^1.0.1",
     "@iconify/react": "^1.1.1"

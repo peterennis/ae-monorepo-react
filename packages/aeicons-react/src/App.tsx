@@ -19,6 +19,8 @@ const App: React.FC = () => {
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <div>
+          <Icon icon={firstPlaceMedal} />&nbsp;
+          <Icon icon={trophy} />&nbsp;&nbsp;&nbsp;
           <a
             className="App-link"
             href="https://reactjs.org"
@@ -45,14 +47,13 @@ const App: React.FC = () => {
           >
             Learn Iconify
           </a>
-          &nbsp;&nbsp;&nbsp;<Icon icon={trophy} />
+          &nbsp;&nbsp;&nbsp;<Icon icon={trophy} />&nbsp;
           <Icon icon={firstPlaceMedal} />
         </div>
         <div>
-
-          <p><InlineIcon icon={airplaneDeparture} /><InlineIcon icon={airplane} />
+          <p><InlineIcon icon={airplaneDeparture} />&nbsp;<InlineIcon icon={airplane} />
             &nbsp;Please fasten your seatbelts&nbsp;
-            <InlineIcon icon={airplane} /><InlineIcon icon={airplaneArrival} />
+            <InlineIcon icon={airplane} rotate="1" />&nbsp;<InlineIcon icon={airplaneArrival} />
           </p>
         </div>
       </header>

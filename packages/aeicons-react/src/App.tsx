@@ -16,12 +16,12 @@ const App: React.FC = () => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+        <p><Icon icon={trophy} width="48px" />&nbsp;&nbsp;&nbsp;
+          Edit <code>src/App.tsx</code> and save to reload
+          &nbsp;&nbsp;&nbsp;<Icon icon={trophy} width="48px" />
         </p>
         <div>
           <Icon icon={firstPlaceMedal} />&nbsp;
-          <Icon icon={trophy} />&nbsp;&nbsp;&nbsp;
           <a
             className="App-link"
             href="https://reactjs.org"
@@ -48,8 +48,7 @@ const App: React.FC = () => {
           >
             Learn Iconify
           </a>
-          &nbsp;&nbsp;&nbsp;<Icon icon={trophy} />&nbsp;
-          <Icon icon={firstPlaceMedal} />
+          &nbsp;<Icon icon={firstPlaceMedal} />
         </div>
         <div>
           <p><InlineIcon icon={helicopter} />&nbsp;

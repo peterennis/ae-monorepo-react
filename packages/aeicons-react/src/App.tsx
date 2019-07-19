@@ -9,6 +9,7 @@ import firstPlaceMedal from "@iconify/icons-twemoji/1st-place-medal";
 import airplane from "@iconify/icons-twemoji/airplane";
 import airplaneArrival from "@iconify/icons-twemoji/airplane-arrival";
 import airplaneDeparture from "@iconify/icons-twemoji/airplane-departure";
+import helicopter from "@iconify/icons-twemoji/helicopter";
 
 const App: React.FC = () => {
   return (
@@ -51,9 +52,11 @@ const App: React.FC = () => {
           <Icon icon={firstPlaceMedal} />
         </div>
         <div>
-          <p><InlineIcon icon={airplaneDeparture} />&nbsp;<InlineIcon icon={airplane} />
+          <p><InlineIcon icon={helicopter} />&nbsp;
+            <InlineIcon icon={airplaneDeparture} />&nbsp;<InlineIcon icon={airplane} />
             &nbsp;Please fasten your seatbelts&nbsp;
             <InlineIcon icon={airplane} rotate="1" />&nbsp;<InlineIcon icon={airplaneArrival} />
+            &nbsp;<InlineIcon icon={helicopter} hFlip />
           </p>
         </div>
       </header>

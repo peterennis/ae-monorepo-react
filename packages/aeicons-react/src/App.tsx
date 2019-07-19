@@ -16,9 +16,9 @@ const App: React.FC = () => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p><Icon icon={trophy} width="48px" />&nbsp;&nbsp;&nbsp;
+        <p><InlineIcon icon={trophy} width="48px" className="MyTrophyDarkRed" />&nbsp;&nbsp;&nbsp;
           Edit <code>src/App.tsx</code> and save to reload
-          &nbsp;&nbsp;&nbsp;<Icon icon={trophy} width="48px" />
+          &nbsp;&nbsp;&nbsp;<InlineIcon icon={trophy} width="48px" className="MyTrophyDarkGreen" />
         </p>
         <div>
           <Icon icon={firstPlaceMedal} />&nbsp;

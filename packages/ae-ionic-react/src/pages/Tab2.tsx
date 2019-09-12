@@ -1,25 +1,12 @@
 import React from 'react';
-import { RouteComponentProps } from 'react-router';
-import {
-  IonButtons,
-  IonContent,
-  IonHeader,
-  IonItem,
-  IonLabel,
-  IonList,
-  IonTitle,
-  IonToolbar
-} from '@ionic/react';
+import { IonContent, IonHeader, IonItem, IonLabel, IonList, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 
-const Tab2: React.FunctionComponent<RouteComponentProps> = ({ history }) => {
-
+const Tab2: React.FC = () => {
   return (
-    <>
+    <IonPage>
       <IonHeader>
-        <IonToolbar color="primary">
-          <IonButtons slot="start">
-          </IonButtons>
-          <IonTitle>About</IonTitle>
+        <IonToolbar>
+          <IonTitle>Tab Two</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>
@@ -31,7 +18,7 @@ const Tab2: React.FunctionComponent<RouteComponentProps> = ({ history }) => {
           </IonItem>
         </IonList>
       </IonContent>
-    </>
+    </IonPage>
   );
 };
 

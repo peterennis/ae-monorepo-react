@@ -1,22 +1,17 @@
 import React from 'react';
-import {
-  IonContent,
-  IonHeader,
-  IonTitle,
-  IonToolbar,
-} from '@ionic/react';
+import { IonHeader, IonToolbar, IonPage, IonTitle, IonContent } from '@ionic/react';
 
-const Tab3: React.FunctionComponent = () => {
+const Tab3Page: React.FC = () => {
   return (
-    <>
+    <IonPage>
       <IonHeader>
-        <IonToolbar color="primary">
-          <IonTitle>Contact</IonTitle>
+        <IonToolbar>
+          <IonTitle>Tab Three</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent />
-    </>
+    </IonPage>
   );
 };
 
-export default Tab3;
+export default Tab3Page;

@@ -1,11 +1,11 @@
 import React from 'react';
-import { IonBackButton, IonButtons, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/react';
+import { IonBackButton, IonButtons, IonHeader, IonPage, IonToolbar, IonTitle, IonContent } from '@ionic/react';
 
-const Details: React.FunctionComponent = () => {
+const Details: React.FC = () => {
   return (
-    <>
+    <IonPage>
       <IonHeader>
-        <IonToolbar color="primary">
+        <IonToolbar>
           <IonButtons slot="start">
             <IonBackButton defaultHref="/tab2" />
           </IonButtons>
@@ -15,7 +15,7 @@ const Details: React.FunctionComponent = () => {
       <IonContent>
         <p>Details</p>
       </IonContent>
-    </>
+    </IonPage>
   );
 };
 

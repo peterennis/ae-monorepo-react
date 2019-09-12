@@ -1,12 +1,12 @@
 {
   "name": "ae-ionic-react",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "private": true,
   "dependencies": {
-    "@ionic/react": "4.8.0-rc.1",
-    "@ionic/react-router": "4.8.0-rc.1",
+    "@ionic/react": "4.9.0-rc.2",
+    "@ionic/react-router": "4.9.0-rc.2",
     "@types/jest": "24.0.18",
-    "@types/node": "12.7.4",
+    "@types/node": "12.7.5",
     "@types/react": "16.9.2",
     "@types/react-dom": "16.9.0",
     "@types/react-router": "5.0.3",
@@ -17,7 +17,7 @@
     "react-router": "5.0.1",
     "react-router-dom": "5.0.1",
     "react-scripts": "3.1.1",
-    "typescript": "3.6.2"
+    "typescript": "3.6.3"
   },
   "scripts": {
     "start": "react-scripts start",

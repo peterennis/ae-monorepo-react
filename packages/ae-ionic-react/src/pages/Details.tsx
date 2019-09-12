@@ -5,7 +5,7 @@ const Details: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
+        <IonToolbar color="primary">
           <IonButtons slot="start">
             <IonBackButton defaultHref="/tab2" />
           </IonButtons>
@@ -13,7 +13,7 @@ const Details: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent>
-        <p>Details</p>
+        <p>&nbsp;&nbsp;&nbsp;Details</p>
       </IonContent>
     </IonPage>
   );

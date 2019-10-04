@@ -3,7 +3,6 @@
 }
 
 .App-logo {
-  animation: infinite 30s linear App-logo-spin;
   height: 40vmin;
 }
 
@@ -19,22 +18,5 @@
 }
 
 .App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.MyTrophyDarkRed {
-  color: #8B0000;
-}
-
-.MyTrophyDarkGreen {
-  color: #006400;
+  color: #09d3ac;
 }

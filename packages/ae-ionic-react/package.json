@@ -1,6 +1,6 @@
 {
   "name": "ae-ionic-react",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@ionic/react": "4.11.5",
